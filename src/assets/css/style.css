@@ -1,0 +1,61 @@
+@import '~antd/dist/antd.css';
+.site-layout-content {
+  background: #fff;
+  padding: 24px;
+  min-height: 500px;
+}
+#components-layout-demo-top .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+/* -- custom -- */
+.layout{
+  background: #fff;
+}
+
+.section-container{
+  display: flex;
+  padding: 20px;
+}
+
+.dist{
+    margin-top:2vh;
+}
+
+.site-layout-content {
+  padding: 24px;
+  background: #fff;
+}
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+.background-img{
+  object-fit: cover;
+
+  width: 100%;
+  height: 400px;
+}
+.square-img-rounded{
+  width:80px;
+  height:80px;
+  object-fit:cover;
+  border-radius:50%;
+}
+
+.square-img{
+  object-fit:cover;
+  width:200px;
+  height:200px;
+}
